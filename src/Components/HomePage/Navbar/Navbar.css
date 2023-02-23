@@ -1,0 +1,249 @@
+.home-page-header {
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+    width: clamp(700px, 100%, 1920px);
+    height: 139.24px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(89.7deg, #0F2B95 0%, #468BFD 100%);
+}
+
+.home-page-logo {
+    width: clamp(50px, 100%, 130px);
+    border-radius: 0px;
+    margin: 2rem 3rem 1rem 3rem;
+    padding-bottom: 20px;
+}
+
+.home-page-header-div1 {
+    display: inline-block;
+    width: clamp(700px, 100%, 1920px);
+    height: 5.5rem;
+}
+
+.home-page-header-div2 {
+    display: -webkit-inline-box;
+    width: clamp(700px, 100%, 1920px);
+    height: 2rem;
+
+}
+
+.home-page-header-Vbtn {
+    width: 146px;
+    height: 39px;
+    background: #FFFFFF;
+    box-shadow: 10px 8px 16px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
+    text-align: center;
+    color: #403D39;
+    border-color: transparent;
+    margin: 2rem 0rem 1rem 3rem;
+}
+
+.home-page-header-Cbtn {
+    width: 146px;
+    height: 39px;
+    background: #FFFFFF;
+    box-shadow: 10px 8px 16px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
+    text-align: center;
+    color: #403D39;
+    border-color: transparent;
+    margin: 2rem 3rem 1rem 1rem;
+}
+
+.home-page-header-callbtn {
+    width: 158px;
+    height: 38px;
+    background: #3EB489;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border-color: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 2rem 0rem 1rem 31rem;
+}
+
+.home-page-header-menu {
+    width: 78px;
+    height: 38px;
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    background: transparent;
+    display: inline-block;
+    margin: 2rem 3rem 1rem 1rem;
+}
+
+li {
+    display: inline-block;
+    margin: 0rem 1rem 0rem 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #030303;
+}
+
+ul {
+    width: auto
+}
+
+.ul#myRow li {
+    display: inline-block;
+    width: auto;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+.header-list-TextStyle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+}
+
+li.list2 {
+    display: inline-block;
+    margin: 0rem 3rem 0rem 17rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.main-header-bg {
+    background: linear-gradient(89.7deg, #0F2B95 0%, #468BFD 100%);
+}
+
+.header-links {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn-success {
+    color: #FFFFFF !important;
+    background-color: transparent !important;
+    border: transparent !important;
+}
+
+.success.dropdown-toggle {
+    color: #FFFFFF !important;
+    background-color: transparent !important;
+    border: transparent !important;
+}
+
+.btn-success:hover {
+    color: #fff !important;
+}
+
+.btn-success:focus {
+    color: #fff !important;
+}
+
+.btn-success:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none !important;
+}
+
+.show>.btn-success.dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+
+.show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.header-logout {
+    position: absolute;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+    /* margin-left: 80px; */
+    margin-top: 5px;
+    padding: 10px 10px;
+    margin-left: 135px;
+}
+
+.sign-card {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    padding: 0px 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.find-vendor:hover {
+    color: white;
+    text-decoration: none;
+
+}
+
+.sign-card:hover {
+    background-color: #3EB489;
+    color: white;
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+.need-help {
+    text-decoration: none;
+    transition: .5s;
+}
+
+.call-expt-btn {
+    background: #3EB489;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}

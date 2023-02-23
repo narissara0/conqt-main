@@ -1,0 +1,11 @@
+.single-pro-yt {
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .single-pro-yt {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+}

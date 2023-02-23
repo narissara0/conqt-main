@@ -1,0 +1,94 @@
+.input-cls {
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  height: 40px;
+  width: 265px;
+  padding: 10px;
+}
+
+label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.contact-send-btn {
+  background: #3eb489;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  color: #ffffff;
+  width: 150px;
+  height: 50px;
+}
+
+.contact-form {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* margin: 10px 0px; */
+  width: 1110px;
+  padding: 8px;
+  margin-top: -100px;
+  margin-bottom: 100px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+}
+
+.contact-us-left-div {
+  width: 540px;
+  height: auto;
+}
+
+.map-contact-us {
+  width: 540px;
+  height: 520px;
+}
+
+@media screen and (max-width: 768px) {
+  .map-contact-us {
+    width: 100%;
+    /* height: 300px; */
+    /* margin-left: 35px; */
+  }
+
+  .contact-us {
+    display: block !important;
+  }
+
+  .contact-us-form {
+    display: block !important;
+  }
+
+  .input-cls {
+    width: 100%;
+  }
+
+  .contact-send-btn {
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-us-left-div {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .contact-us-input-div {
+    display: block !important;
+  }
+}

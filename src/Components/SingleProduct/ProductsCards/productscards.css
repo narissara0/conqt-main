@@ -1,0 +1,15 @@
+.pro-card {
+    border-top: 4px solid #0F2B95;
+    border-bottom: 4px solid #0F2B95;
+    width: 300px;
+    height: 320px;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.pro-card:hover {
+    transform: scale(1.1);
+    transition: transform 0.8s ease-in-out;
+    border-top: 4px solid #e6cf02;
+    border-bottom: 4px solid #e4cd02;
+}

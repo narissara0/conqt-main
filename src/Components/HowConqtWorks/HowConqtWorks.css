@@ -1,0 +1,109 @@
+@media screen and (max-width:1024px) {
+  .how-conqt-works-main {
+    margin-bottom: 80px;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 80px;
+  }
+}
+
+.conqt-process {
+  width: 90vw;
+  background-color: var(--color-white);
+}
+
+.how-conqt-works-header {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+.how-conqt-works-header-two {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+@media screen and (max-width:768px) {
+  .how-conqt-works-header-two {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-black);
+    width: 324px;
+    margin-left: -25px;
+  }
+}
+
+.how-conqt-works-content {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  width: 46vw;
+  /* line-height: 30px; */
+  text-align: center;
+  color: var(--color-text);
+  margin-bottom: 80px;
+
+}
+
+@media screen and (max-width:768px) {
+  .how-conqt-works-content {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: var(--color-text);
+    margin-bottom: 80px;
+
+  }
+}
+
+.how-conqt-header {
+  margin-top: 30px;
+}
+
+.how-conqt-works-content-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width:300px) and (max-width: 800px) {
+  .how-conqt-works-content {
+    margin-left: 0px;
+  }
+}
+
+
+
+@media screen and (max-width:768px) {
+  .hw-sm-image {
+    margin-left: -50px;
+  }
+
+  .how-conqt-header {
+    margin-top: -25px;
+  }
+
+}

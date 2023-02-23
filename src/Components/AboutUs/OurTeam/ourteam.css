@@ -1,0 +1,57 @@
+.our-team-banner-main {
+    width: 100%;
+    /* height: 500px; */
+    background: linear-gradient(86.12deg,
+            var(--color-blue) 0%,
+            var(--color-light-blue) 100%);
+    /* padding: 20px 0px 20px 0px; */
+}
+
+@media screen and (max-width: 1300px) {}
+
+.industry-patches {
+    display: flex;
+    justify-content: space-between;
+}
+
+.industry-right-patch {
+    height: 300px;
+    width: 35%;
+}
+
+.industry-left-patch {
+    height: 300px;
+    width: 35%;
+}
+
+.team-card-name {
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -60px;
+    text-align: center;
+    margin-left: 25px;
+    height: 80px;
+    width: 200px;
+    padding: 10px;
+}
+
+.our-img {
+    width: 250px;
+    position: relative;
+}
+
+@media screen and (max-width:768px) {
+    .skill-res {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .skill-res-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+}

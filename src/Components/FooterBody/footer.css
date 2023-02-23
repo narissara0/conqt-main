@@ -1,0 +1,92 @@
+.footer-link-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #403D39;
+}
+
+.footer-log-link-names {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #403D39;
+    padding-top: 4px;
+}
+
+.university-link {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    padding-top: 4px;
+}
+
+.university-link:hover {
+    color: #000000
+}
+
+.footer-headers-name-abt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #0F2B95;
+    border-bottom: 1px solid black;
+    width: 149px;
+}
+
+.footer-headers-name-business {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #0F2B95;
+    border-bottom: 1px solid black;
+    width: 165px;
+}
+
+.footer-headers-name-services {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #0F2B95;
+    border-bottom: 1px solid black;
+    width: 100px;
+}
+
+.footer-abt-height {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .footer-abt-height {
+        padding: 10px 0px;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+    .sm-log-res {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer-res {
+        margin-left: 15px;
+    }
+}
+
+.footer-res {
+    padding-top: 10px;
+}

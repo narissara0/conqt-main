@@ -1,0 +1,7 @@
+.home-banner-contact-us {
+    background: url('/src/Assets/Images/hbanner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 390px;
+    background-position: center center;
+}

@@ -1,0 +1,88 @@
+.ReactModal__Content--after-open{
+    background-color: transparent !important;
+    border: 0px !important;
+    width: 100%;
+}
+.ReactModal__Overlay--after-open{
+    background-color: var(--color-popup-bg) !important;
+    z-index: 2 !important;
+}
+
+.popup-close-btn-div{
+    direction: rtl;
+    height: 15px;
+    z-index: 9;
+    width: 100%;
+}
+.popup-close-div{
+    display: flex;
+    justify-content: center;
+}
+.popup-close-btn{
+    background-color: transparent;
+    position: relative;
+    right: -1%;
+    top: -145%;
+}
+.popup-header{
+    background: var(--color-popup-header);
+    width: clamp(299px,100%,899px);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.popup-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+align-items: center;
+text-align: center;
+color: var(--color-white)
+}
+
+.popup-content-callExpert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.popup-body{
+    background: var(--color-white);
+    width: clamp(299px,100%,899px);
+    height: 650px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.popup-progress-bar{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-height: 790px)  {
+    .popup-progress-bar{
+      margin-top: 1rem;
+}
+    .popup-body{
+        height: 550px;
+    }
+    .popup-header{
+        height: 60px;
+    }
+    .popup-title{
+        font-size: 18px;
+    }
+    .popup-close-btn{
+        top: -90%;
+    }
+    
+}

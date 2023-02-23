@@ -1,0 +1,183 @@
+.homepage-banner {
+    background: url('/src/Assets/Images/main-banner.png');
+    width: clamp(700px, 100%, 1920px);
+    height: 390px;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: 100% 32%;
+    overflow: hidden;
+    padding: 165px 45px 45px 45px;
+    background-position: center center;
+}
+
+.HomePage-SearchBar {
+    align-items: center;
+    width: 600px;
+    height: 49px;
+    background: #ffffff;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 45%);
+}
+
+/* @media screen and (max-width:768px) {
+    .HomePage-SearchBar {
+        align-items: center;
+        width: 500px;
+        height: 35px;
+        background: #ffffff;
+        border-radius: 50px 0px 0px 50px;
+        box-shadow: 4px 4px 10px rgb(0 0 0 / 45%);
+    }
+} */
+
+.Banner-Search-bar {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+
+
+.homepage-search-btn {
+    width: 110px;
+    height: 49px;
+    background: #3eb489;
+    border-radius: 0px 50px 50px 0px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    padding-top: 4px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 45%);
+    /* font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px; */
+    color: #ffffff;
+}
+
+
+
+.homePage-searchText {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #403d39;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+a.banner-get-advice {
+    color: #403d39;
+    text-decoration: underline;
+}
+
+.banner-footer {
+    align-items: center;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.svg-banner-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #403d39;
+    margin-left: 2rem;
+}
+
+input.HomePage-SearchBar {
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.84236 14.6684C8.36049 14.668 9.83487 14.1599 11.0307 13.2247L14.7906 16.9844L16 15.7751L12.2401 12.0154C13.1758 10.8195 13.6844 9.34481 13.6847 7.82637C13.6847 4.05386 10.6151 0.984375 6.84236 0.984375C3.06965 0.984375 0 4.05386 0 7.82637C0 11.5989 3.06965 14.6684 6.84236 14.6684ZM6.84236 2.69487C9.67253 2.69487 11.9741 4.99635 11.9741 7.82637C11.9741 10.6564 9.67253 12.9579 6.84236 12.9579C4.01219 12.9579 1.71059 10.6564 1.71059 7.82637C1.71059 4.99635 4.01219 2.69487 6.84236 2.69487Z' fill='%233EB489'/%3E%3C/svg%3E");
+    background-position: 5%;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 5%;
+
+}
+
+
+input[type='search'].HomePage-SearchBar::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7B7B;
+    text-align: center;
+}
+
+input[type="search"].HomePage-SearchBar:focus {
+    box-shadow: 0 0 3px 0 #0F2B95;
+    border-color: #468BFD;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #403d39;
+}
+
+@media screen and (max-width:768px) {
+    .mbl-main-banner {
+        background: url('/src/Assets/Svg/mblHomeBanner.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 331px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mbl-search {
+        background: #3eb489;
+        border-radius: 0px 15px 15px 0px;
+        color: #ffffff;
+        padding: 0px 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .search-mbl-input {
+        height: 35px;
+        border-radius: 15px 0px 0px 15px;
+        padding: 0px 5px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mbl-view-main-banner-icons {
+        margin-left: 70px;
+    }
+}
+
+.find-pro-btn {
+    background: #3EB489;
+    border-radius: 46px;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}

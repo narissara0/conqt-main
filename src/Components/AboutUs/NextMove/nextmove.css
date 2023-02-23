@@ -1,0 +1,9 @@
+.next-move-padding {
+    padding: 90px 0px;
+}
+
+@media screen and (max-width:768px) {
+    .next-move-padding {
+        padding: 50px 0px;
+    }
+}

@@ -1,0 +1,66 @@
+.top-10-products {
+  border-bottom: 3px solid var(--color-green);
+  width: 200px;
+  padding: 10px 4px;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.pagination .page-numbers {
+  padding: 3px 3px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+@media screen and (max-width:768px) {
+  .pagination .page-numbers {
+    padding: 1px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    margin: 0px -20px;
+  }
+
+  .pagination .active {
+    padding: 1px 2px;
+    background-color: var(--color-pagination-active);
+    color: var(--color-white);
+  }
+
+  .pagination {
+    list-style: none;
+    display: block;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    font-size: 12px;
+  }
+}
+
+
+.pagination .page-numbers {
+  background-color: var(--color-white);
+  color: var(--color-pagination-active);
+  text-decoration: none;
+}
+
+.pagination .active {
+  padding: 3px 10px;
+  background-color: var(--color-pagination-active);
+  color: var(--color-white);
+}
+
+.break {
+  color: var(--color-pagination-active);
+}

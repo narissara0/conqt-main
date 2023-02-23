@@ -1,0 +1,177 @@
+/* 
+.industry-slider {
+    width: clamp(700px, 90%, 1920px);
+    height: 250px;
+    margin-left: 4.5rem;
+  }
+  
+  .homepage-industry {
+    width: clamp(700px, 100%, 1920px);
+    height: 430px;
+  }
+  
+  .homepage-industry-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 90px;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    color: #ffffff;
+  }
+  
+  .swiper-slide {
+    background: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 200px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-right: 2rem;
+  }
+  
+  .swiper-button-prev {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='59' viewBox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0C24.0666 0 18.2664 1.73014 13.3329 4.97165C8.39943 8.21315 4.55426 12.8204 2.28363 18.2108C0.0129986 23.6013 -0.581101 29.5327 0.576455 35.2552C1.73401 40.9776 4.59123 46.234 8.78681 50.3596C12.9824 54.4853 18.3279 57.2949 24.1473 58.4332C29.9667 59.5714 35.9987 58.9872 41.4805 56.7544C46.9623 54.5216 51.6476 50.7406 54.9441 45.8893C58.2405 41.0381 60 35.3345 60 29.5C59.9848 21.6807 56.8191 14.186 51.1964 8.65691C45.5736 3.12784 37.9518 0.0149939 30 0ZM41.5385 31.7692H24.0289L29.8846 37.5274C30.3162 37.9528 30.5586 38.5292 30.5586 39.13C30.5586 39.7309 30.3162 40.3073 29.8846 40.7327C29.6698 40.9453 29.4133 41.1127 29.1306 41.2249C28.848 41.337 28.5451 41.3915 28.2404 41.3851C27.94 41.391 27.6417 41.3361 27.3638 41.2239C27.0859 41.1117 26.8344 40.9445 26.625 40.7327L16.8462 31.1168C16.6287 30.9042 16.4527 30.6543 16.3269 30.3793C16.0959 29.8151 16.0959 29.1849 16.3269 28.6207C16.4527 28.3457 16.6287 28.0957 16.8462 27.8832L26.625 18.2673C27.064 17.8762 27.6391 17.666 28.2313 17.6804C28.8235 17.6947 29.3874 17.9324 29.8063 18.3443C30.2252 18.7562 30.4669 19.3107 30.4815 19.8931C30.4961 20.4754 30.2824 21.0409 29.8846 21.4726L24.0289 27.2308H41.5385C42.1505 27.2308 42.7375 27.4698 43.1703 27.8954C43.603 28.321 43.8462 28.8982 43.8462 29.5C43.8462 30.1018 43.603 30.679 43.1703 31.1046C42.7375 31.5301 42.1505 31.7692 41.5385 31.7692Z' fill='white'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+  
+  .swiper-button-next {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0C24.0666 0 18.2664 1.75947 13.3329 5.05591C8.39943 8.35235 4.55426 13.0377 2.28363 18.5195C0.0129986 24.0013 -0.581101 30.0333 0.576455 35.8527C1.73401 41.6721 4.59123 47.0176 8.78681 51.2132C12.9824 55.4088 18.3279 58.266 24.1473 59.4235C29.9667 60.5811 35.9987 59.987 41.4805 57.7164C46.9623 55.4457 51.6476 51.6006 54.9441 46.6671C58.2405 41.7336 60 35.9334 60 30C59.9848 22.0482 56.8191 14.4264 51.1964 8.80364C45.5736 3.18085 37.9518 0.015248 30 0ZM43.6731 30.8942C43.5473 31.1738 43.3713 31.428 43.1539 31.6442L33.375 41.4231C33.1656 41.6384 32.9141 41.8085 32.6362 41.9226C32.3583 42.0367 32.06 42.0925 31.7596 42.0865C31.4549 42.0931 31.152 42.0376 30.8694 41.9236C30.5868 41.8095 30.3302 41.6393 30.1154 41.4231C29.6838 40.9905 29.4415 40.4043 29.4415 39.7933C29.4415 39.1822 29.6838 38.5961 30.1154 38.1635L35.9712 32.3077H18.4615C17.8495 32.3077 17.2625 32.0646 16.8298 31.6318C16.397 31.199 16.1539 30.612 16.1539 30C16.1539 29.388 16.397 28.801 16.8298 28.3682C17.2625 27.9354 17.8495 27.6923 18.4615 27.6923H35.9712L30.1154 21.8365C29.7176 21.3976 29.5039 20.8224 29.5185 20.2302C29.5331 19.638 29.7748 19.0741 30.1937 18.6552C30.6126 18.2364 31.1765 17.9946 31.7687 17.98C32.3609 17.9655 32.936 18.1792 33.375 18.5769L43.1539 28.3558C43.3713 28.5719 43.5473 28.8261 43.6731 29.1058C43.9041 29.6795 43.9041 30.3205 43.6731 30.8942Z' fill='white'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+  
+  .swiper-button-prev::after {
+    display: none;
+  }
+  .swiper-button-next::after {
+    display: none;
+  }
+  */
+.slider-images {
+  /* border-radius: 10px; */
+  /* width: 335px !important;
+  height: 250px !important; */
+  margin-top: 1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 10px rgb(0 0 0 / 45%);
+  border: 0rem;
+}
+
+.industry-banner-main {
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(
+    86.12deg,
+    var(--color-blue) 0%,
+    var(--color-light-blue) 100%
+  );
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+.industry-patches {
+  display: flex;
+  justify-content: space-between;
+}
+
+.industry-right-patch {
+  height: 300px;
+  width: 35%;
+}
+
+.industry-left-patch {
+  height: 300px;
+  width: 35%;
+}
+
+.swiper-button-prev:after {
+  content: url(../../../Assets/Images/slider-left-arrow.png) !important;
+}
+
+.swiper-button-next:after {
+  content: url(../../../Assets/Images/slider-right-arrow.png) !important;
+}
+
+.swiper-button-prev {
+  content: url(../../../Assets/Images/slider-left-arrow.png) !important;
+  width: 30px;
+  height: 30px;
+}
+
+.swiper-button-next {
+  content: url(../../../Assets/Images/slider-right-arrow.png) !important;
+  width: 30px;
+  height: 30px;
+}
+
+.industry-images {
+  width: 100%;
+  height: 100%;
+  /* margin-left: 30px; */
+}
+.industry-card {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../../Assets/Svg/SliderImage1.svg);
+}
+.industry-titles{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.industry-slider {
+  margin-top: -270px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width:768px) {
+  .industry-slider {
+    margin-top: -270px;
+    margin-left: 45px;
+    margin-right: 30px;
+  }
+}
+.industry-img-sliders-div {
+  width: 300px;
+  height: 200px;
+}
+
+/* .swiper-slide swiper-slide-active{
+    width:0px !important;
+  }
+  
+  .swiper-slide {
+    width:370px !important;
+  }  */
+
+.industry {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.swiper{
+  z-index: 0;
+}

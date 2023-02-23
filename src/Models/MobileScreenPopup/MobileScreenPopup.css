@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) {
+  .mobile-screen-popup {
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    margin-top: -72px;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .mobile-popup-logo {
+    width: auto;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  .mobile-popup-text {
+    color: white;
+    padding-top: 30px;
+  }
+  .mobile-popup-btn-div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .mobile-popup-btn-login {
+    color: white;
+    background-color: var(--color-blue);
+    padding: 4px 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  .mobile-popup-btn-login:hover {
+   color: white;
+  }
+  .mobile-popup-btn:hover {
+    color: white
+
+  }
+  .mobile-popup-btn {
+    color: white;
+    background-color: var(--color-green);
+    padding: 1px 14px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;;
+  }
+
+  .mobile-popup-close{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family: cursive;
+  }
+}

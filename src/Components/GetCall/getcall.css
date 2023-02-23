@@ -1,0 +1,57 @@
+.getcal-main-page {
+    background: linear-gradient(89.96deg, #0F2B95 0%, #468BFD 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:768px) {
+    .get-call-sm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .responsive-get-call {
+        padding-left: 40px;
+    }
+}
+
+.call-btn {
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #403D39;
+
+}
+
+@media screen and (max-width:768px) {
+    .res-get-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.get-call-header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.get-call-sub-header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}

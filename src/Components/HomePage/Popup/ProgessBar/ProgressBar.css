@@ -1,0 +1,55 @@
+.progressBar{
+    height: 2px;
+    width: 70%;
+    line-height: 1;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    margin: 20px auto;
+}
+.progressBar .progressBar-step{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: absolute;
+    transform: translateX(-50%);
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.indexedStep{
+    color: rgb(190, 190, 190);
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.progressBar .progression{
+    position: absolute;
+    transition: width 0.3s ease;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background: var(--color-green);
+    z-index: -1;
+}
+.indexedStep .accomplished {
+    background-color: var(--color-green);
+    color: white;
+    border-style: none;
+}
